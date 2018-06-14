@@ -1,0 +1,16 @@
+{
+  "name": "Forms",
+  "helper_method_key": "typeform_forms_list",
+  "requests": [
+    {
+      "method_name": "/forms",
+      "response_field": ["items"],
+      "mapping": {
+        "label": {
+          "fields": ["title"]
+        },
+        "value": {"field": "id"}
+      }
+    }
+  ]
+}
