@@ -24,7 +24,7 @@
       "redirect_uri": "https://manage.pluga.co/oauth2/typeform",
       "access_token_placement": "header_bearer",
       "scope": [
-        "forms.read"
+        "forms:read"
       ],
       "response_type": "code"
     },
