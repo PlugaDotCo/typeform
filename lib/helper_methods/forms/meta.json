@@ -1,0 +1,17 @@
+{
+  "name": "Forms",
+  "helper_method_key": "typeform_forms_list",
+  "requests": [
+    {
+      "method_name": "/forms",
+      "params": { "page_size": "200" },
+      "response_field": ["items"],
+      "mapping": {
+        "label": {
+          "fields": ["title"]
+        },
+        "value": {"field": "id"}
+      }
+    }
+  ]
+}
