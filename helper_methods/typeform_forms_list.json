@@ -4,6 +4,7 @@
   "requests": [
     {
       "method_name": "/forms",
+      "params": { "page_size": "200" },
       "response_field": ["items"],
       "mapping": {
         "label": {
