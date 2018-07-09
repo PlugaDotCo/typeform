@@ -1,6 +1,2 @@
-/node_modules
-/package-lock.json
-/yarn.lock
 .pluga_app_script
 pluga_create_app.rb
-.env
